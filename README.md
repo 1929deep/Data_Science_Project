@@ -1,49 +1,35 @@
 # Data_Science_Project
-Task1: Data Exploration and Preprocessing
+# Restaurant Data Analysis
 
-Explore the dataset and identify the number
-of rows and columns.
+This repository contains analysis and exploration of a restaurant dataset focusing on ratings, locations, and cuisines. The main objectives are:
 
-Check for missing values in each column and
-handle them accordingly.
+## Overview of Tasks
 
-Perform data type conversion if necessary.
-Analyze the distribution of the target variable
-("Aggregate rating") and identify any class
-imbalances.
+### Task 1: Data Exploration and Preprocessing
+- Load and understand the dataset's shape (rows and columns).
+- Identify and handle missing values.
+- Perform data type conversions if necessary.
+- Explore the distribution of the target variable "Aggregate rating" and check for any class imbalances.
 
+### Task 2: Descriptive Analysis
+- Calculate basic statistics (mean, median, std) for numerical columns.
+- Analyze distributions of categorical variables such as "Country Code", "City", and "Cuisines".
+- Identify top cuisines and cities with the highest number of restaurants.
 
+### Task 3: Geospatial Analysis
+- Visualize restaurant locations on a map using latitude and longitude.
+- Analyze restaurant distribution across cities and countries.
+- Investigate any correlation between location and ratings.
 
+## How to Use
 
-Task2: Descriptive Analysis
+1. Clone this repository.
+2. Place the dataset CSV file (e.g., `restaurants.csv`) in the repository folder.
+3. Run the Jupyter notebook `analysis.ipynb` to see code and visualizations for the tasks.
 
-Calculate basic statistical measures (mean,
-median, standard deviation, etc.) for numerical
-columns.
-
-Explore the distribution of categorical
-variables like "Country Code,
-
-" "City,
-
-" and
-
-"Cuisines.
-"
-
-Identify the top cuisines and cities with the
-highest number of restaurants.
+## Requirements
+- Python 3.x
+- Jupyter Notebook
+- Libraries: pandas, numpy, matplotlib, seaborn, folium.
 
 
-
-Task3: Geospatial Analysis
-
-Visualize the locations of restaurants on a
-map using latitude and longitude
-information.
-
-Analyze the distribution of restaurants
-across different cities or countries.
-Determine if there is any correlation
-between the restaurant's location and its
-rating.
